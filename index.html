@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" href="calc-style.css">
+</head>
+<body>
+	<div class = "main">
+		<div class= "container">
+			<section id="result"></section>
+		</div>
+		<div class= "container">
+			<button id = "o-c" class = 'sec sec1' onclick="getInput(id)">C</button>
+			<button id = "o-a" class = 'sec' onclick="getInput(id)">←</button>
+			<button id = "o-1" class = 'sec op' onclick="getInput(id)">÷</button>
+		</div>
+		<div class= "container">
+			<button id = "t-7" class = 'sec' onclick="getInput(id)">7</button>
+			<button id = "t-8" class = 'sec' onclick="getInput(id)">8</button>
+			<button id = "t-9" class = 'sec' onclick="getInput(id)">9</button>
+			<button id = "o-2" class = 'sec op' onclick="getInput(id)">x</button>
+		</div>
+		<div class= "container">
+			<button id = "t-4" class = 'sec' onclick="getInput(id)">4</button>
+			<button id = "t-5" class = 'sec' onclick="getInput(id)">5</button>
+			<button id = "t-6" class = 'sec' onclick="getInput(id)">6</button>
+			<button id = "o-3" class = 'sec op' onclick="getInput(id)">-</button>
+		</div>
+		<div class= "container">
+			<button id = "t-1" class = 'sec' onclick="getInput(id)">1</button>
+			<button id = "t-2" class = 'sec' onclick="getInput(id)">2</button>
+			<button id = "t-3" class = 'sec' onclick="getInput(id)">3</button>
+			<button id = "o-4" class = 'sec op' onclick="getInput(id)">+</button>
+		</div>
+		<div class= "container">
+			<button id = "t-0" class = 'sec sec2' onclick="getInput(id)">0</button>
+			<button id = "see" class = 'sec sec3 op' onclick="getInput(id)">=</button>
+		</div> 
+	</div>
+</body>
+<script src='calcScript.js'></script>
+</html>
