@@ -1,4 +1,7 @@
 # simpleCalculator
+
+This repo contains code for Calculator:
+
 A simple calculator for binary arithmetic calculations.
 
 The calculator is capable of performing arithmetic operations such as addition, subtraction, multiplication, and division.
